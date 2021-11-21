@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/proyectos.css">
+</head>
+
+<body>
+
+    <!-- Se puede omitir el header -->
+    <header class="header">
+        <nav>
+            <div class="barra_navegacion">
+                <a href="index.html" class="nav-link logo-link">Blog</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item">
+                        <a href="estudios.html" class="nav-link nav-menu-link">
+                            Estudios
+                        </a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="proyectos.html" class="nav-link nav-menu-link">
+                            Proyectos
+                        </a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="pasatiempos.html" class="nav-link nav-menu-link">
+                            Pasatiempos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <h2>Proyectos</h2>
+            <div class="listas">
+                <div class="lista-grupo-academica"> 
+                    <h3 class="tituloLista">Academicos</h3>
+                    <ul class="lista-academica">
+                        <li class="lista-academica-items"> Ninguno</li>
+
+                    </ul>
+                </div>
+                <div class="lista-grupo-social"> 
+                    <h3 class="tituloLista">Sociales</h3>
+                    <ul class="lista-academica">
+                        <li class="lista-academica-items"> Ninguno</li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="formularioContacto">
+            <h2 class="tituloFormulario">Contactame</h2>
+            <form action="">
+
+                <label for="nombre">
+                    <span>Cual es tu nombre?</span>
+                    <input type="text" id="nombre" placeholder="Nombre">
+                </label>
+                <label form="correo electronico">
+                    <span> Correo Electronico: </span>
+                    <input type="text" id="correo" placeholder="Email">
+
+                </label>
+                <label for="mensaje">
+                    <span>Ingresa tu mensaje</span>
+                    <textarea id="mensaje" name="mensaje" placeholder="Mensaje" cols="39" rows="10"></textarea>
+                </label>
+                <input type="submit" value="Enviar" class="btn-contactar">
+            </form>
+        </section>
+    </footer>
+
+</body>
+
+</html>

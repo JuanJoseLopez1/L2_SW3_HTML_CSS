@@ -1,0 +1,110 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+.header {
+    height: 80px;
+    background-color: #636363;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* nav css */
+.barra_navegacion {
+    display: flex;
+    justify-content: space-between;
+
+    /* bootstrap breakpoint */
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.logo-link {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0px 40px;
+    line-height: 80px;
+}
+
+.nav-link {
+    color: #ffa14f;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 15px;
+    margin: 0 20px 0 0;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 3px;
+
+}
+
+.nav-menu-link:hover {
+    background-color: #034574;
+    transition: 0.5s ease;
+}
+
+/* main css */
+
+.container {
+    padding: 90px 20px 0;
+    width: 650px;
+    margin: 0 auto;    
+}
+
+.presentacion img {
+    width: 650px;
+    height: 450px;
+}
+
+/* footer  css */
+
+footer {
+    position: relative;
+    background-color: #636363;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.formularioContacto {
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 40px 60px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.tituloFormulario {
+    position: relative;
+}
+
+.formularioContacto form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.formularioContacto input {
+    height: 40px;
+    width: 100%;
+}

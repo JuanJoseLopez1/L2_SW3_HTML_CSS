@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+    <!-- Se puede omitir el header -->
+    <header class="header">
+        <nav>
+            <div class="barra_navegacion">
+                <a href="index.html" class="nav-link logo-link">Blog</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item">
+                        <a href="estudios.html" class="nav-link nav-menu-link">
+                            Estudios
+                        </a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="proyectos.html" class="nav-link nav-menu-link">
+                            Proyectos
+                        </a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="pasatiempos.html" class="nav-link nav-menu-link">
+                            Pasatiempos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <article class="presentacion">
+                <h2>Hola!</h2>
+                <p> 
+                    Soy Juan Jose Lopez, nací el 2 de enero del 2001 en la ciudad de pasto (Nariño),
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur sodales massa nec pharetra.
+                    Proin blandit malesuada tortor, vitae blandit velit commodo non. Ut nisl libero, varius eget iaculis blandit,
+                    vestibulum sit amet mauris. Donec porttitor erat eu dui euismod feugiat. Morbi nisi elit, tempus id ligula sit amet,
+                    molestie vehicula metus. Aliquam ante metus, cursus eget lorem et, laoreet pretium dolor. Quisque ornare elit erat.
+                    Donec eget vulputate nunc. Phasellus euismod enim elementum dictum hendrerit. Nunc id magna vitae dui consequat facilisis.
+                    Nulla nec lorem consectetur, hendrerit lacus vel, volutpat orci. 
+                </p>
+                <figure>
+                    <img src="./img/ciudad.jpg" alt="Imagen de mi ciudad de nacimiento" />
+                    <figcaption>
+                        Ciudad de Pasto, Departamento del Narino, Colombia
+                    </figcaption>
+                </figure>
+            </article>
+        </section>
+    </main>
+    
+
+    <footer>
+        <section class="formularioContacto">
+            <h2 class="tituloFormulario">Contactame</h2>
+            <form action="">
+
+                <label for="nombre">
+                    <span>Cual es tu nombre?</span>
+                    <input type="text" id="nombre" placeholder="Nombre">
+                </label>
+                <label form="correo electronico">
+                    <span> Correo Electronico: </span>
+                    <input type="text" id="correo" placeholder="Email">
+
+                </label>
+                <label for="mensaje">
+                    <span>Ingresa tu mensaje</span>
+                    <textarea id="mensaje" name="mensaje" placeholder="Mensaje" cols="39" rows="10"></textarea>
+                </label>
+                <input type="submit" value="Enviar" class="btn-contactar">
+            </form>
+        </section>
+    </footer>
+
+</body>
+
+</html>

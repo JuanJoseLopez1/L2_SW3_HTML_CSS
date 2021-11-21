@@ -1,0 +1,10 @@
+.estudios table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.estudios th, td{
+    border: 1px solid black;
+}
